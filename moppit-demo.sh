@@ -4,12 +4,13 @@ set -e
 # Prevent KeyError: 'getpwuid(): uid not found: 21155'
 export TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor
 
-echo "Working directory: $(pwd)"
 echo "GPU info:"
 grep -i "GPUs_" $_CONDOR_MACHINE_AD
 
+cd /workspace/moPPIt
+
 python -u /workspace/moPPIt/moppit.py \
-    --output_file './moppit-demo-samples.csv' \
+    --output_file "${_CONDOR_JOB_IWD}/moppit-demo-samples.csv" \
     --length 10 \
     --n_batches 5 \
     --weights 1 1 1 4 4 2 \
