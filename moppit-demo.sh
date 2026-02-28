@@ -3,7 +3,7 @@ set -e
 
 cd /workspace/moPPIt
 
-python -u moo.py \
+python -u moppit.py \
     --output_file './moppit-demo-samples.csv' \
     --length 10 \
     --n_batches 5 \

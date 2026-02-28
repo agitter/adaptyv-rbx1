@@ -5,9 +5,9 @@ universe = docker
 docker_image = agitter/moppit:2.10.0-cuda12.8-py3.12
 
 # Set the log, error and output files
-log    = moppit_$(Cluster).log
-output = moppit_$(Cluster).$(Process).out
-error  = moppit_$(Cluster).$(Process).err
+log    = logs/moppit_$(Cluster).log
+output = logs/moppit_$(Cluster).$(Process).out
+error  = logs/moppit_$(Cluster).$(Process).err
 
 # Set the executable to run
 executable = moppit-demo.sh
