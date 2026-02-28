@@ -6,10 +6,10 @@ export TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor
 
 echo "Working directory: $(pwd)"
 echo "GPU info:"
-grep -i gpu $_CONDOR_MACHINE_AD
+grep -i "GPUs_" $_CONDOR_MACHINE_AD
 
-python -u moppit.py \
-    --output_file '/workspace/moPPIt/moppit-demo-samples.csv' \
+python -u /workspace/moPPIt/moppit.py \
+    --output_file './moppit-demo-samples.csv' \
     --length 10 \
     --n_batches 5 \
     --weights 1 1 1 4 4 2 \
