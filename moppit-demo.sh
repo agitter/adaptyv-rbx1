@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# Prevent KeyError: 'getpwuid(): uid not found: 21155'
+export TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor
+
 cd /workspace/moPPIt
 
 python -u moppit.py \
