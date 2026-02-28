@@ -1,0 +1,36 @@
+# moPPIt: De Novo Generation of Motif-Specific Peptide Binders
+
+# Must set the universe to Docker
+universe = docker
+docker_image = agitter/moppit:2.10.0-cuda12.8-py3.12
+
+# Set the log, error and output files
+log    = moppit_$(Cluster).log
+output = moppit_$(Cluster).$(Process).out
+error  = moppit_$(Cluster).$(Process).err
+
+# Set the executable to run
+executable = moppit-demo.sh
+#arguments = $(Process)
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+# We require a machine with a compatible version of the CUDA driver and sufficient memory
+require_gpus = (DriverVersion >= 12.8)
+gpus_minimum_memory = 20GB
+
+request_cpus = 4
+request_gpus = 1
+
+# Select some memory and disk space
+request_memory = 24GB
+# Disk accounts for Docker image layers (~12GB) + checkpoints + output
+request_disk = 40GB
+
+# Opt in to using CHTC GPU Lab resources
++WantGPULab = true
++GPUJobLength = "medium"
+
+# Tell HTCondor to run 1 instance of our job
+queue 1
