@@ -11,4 +11,6 @@ docker build -t agitter/moppit:2.10.0-cuda12.8-py3.12 -f Dockerfile .
 docker push agitter/moppit:2.10.0-cuda12.8-py3.12
 ```
 
+`moppit-demo.sub` and `moppit-demo.sh` are small-scale tests of the process that support hard-coded parameters.
+
 Claude Sonnet 4.6 was used to draft most files.
