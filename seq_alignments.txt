@@ -1,0 +1,50 @@
+Alignments from https://en.vectorbuilder.com/tool/sequence-alignment
+
+Top: https://proteinbase.com/competitions/gem-adaptyv-rbx1
+Bottom: https://www.rcsb.org/fasta/entry/2LGV/display
+
+MAAAMDVDTPSGTNSGAGKKRFEVKKWNAVALWAWDIVVDNCAICRNHIMDLCIECQANQ
+           ||||||||||||||| || |  |||||||||||||||||||||||||||
+--------GGGGTNSGAGKKRFEVKKSNASAQSAWDIVVDNCAICRNHIMDLCIECQANQ
+
+ASATSEECTVAWGVCNHAFHFHCISRWLKTRQVCPLDNREWEFQKYGH
+||||||||||||||||||||||||||||||||||||||||||||||||
+ASATSEECTVAWGVCNHAFHFHCISRWLKTRQVCPLDNREWEFQKYGH
+
+Matrix: EBLOSUM62
+Gap penalty: 2.0
+Extend penalty: 2.0
+Score: 518.0
+Adaptyv length:108
+PDB length:100
+Alignment length: 108
+Identity:      93/108 (86.11%)
+Similarity:    93/108 (86.11%)
+Gaps:           8/108 (7.41%)
+
+
+
+
+
+
+Top: https://proteinbase.com/competitions/gem-adaptyv-rbx1
+Bottom: https://www.uniprot.org/uniprotkb/P62877/entry#sequences
+
+MAAAMDVDTPSGTNSGAGKKRFEVKKWNAVALWAWDIVVDNCAICRNHIMDLCIECQANQ
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+MAAAMDVDTPSGTNSGAGKKRFEVKKWNAVALWAWDIVVDNCAICRNHIMDLCIECQANQ
+
+ASATSEECTVAWGVCNHAFHFHCISRWLKTRQVCPLDNREWEFQKYGH
+||||||||||||||||||||||||||||||||||||||||||||||||
+ASATSEECTVAWGVCNHAFHFHCISRWLKTRQVCPLDNREWEFQKYGH
+
+Matrix: EBLOSUM62
+Gap penalty: 2.0
+Extend penalty: 2.0
+Score: 616.0
+Adaptyv length:108
+Uniprot length:108
+Alignment length: 108
+Identity:     108/108 (100.00%)
+Similarity:   108/108 (100.00%)
+Gaps:           0/108 (0.00%)
