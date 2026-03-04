@@ -12,8 +12,9 @@ grep -i "GPUs_" $_CONDOR_MACHINE_AD
 JOB_ID=$1
 LENGTH=$2
 MOTIFS=$3
-# Weights are passed as a single quoted string "w1 w2 w3 w4 w5 w6"
-WEIGHTS=$4
+# Weights are plus-delimited in the CSV to avoid HTCondor splitting on spaces
+# Convert back to space-separated for passing to --weights
+WEIGHTS=$(echo "$4" | tr '+' ' ')
 N_BATCHES=$5
 
 echo "job_id=$JOB_ID length=$LENGTH motifs=$MOTIFS weights=$WEIGHTS n_batches=$N_BATCHES"

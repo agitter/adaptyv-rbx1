@@ -44,19 +44,20 @@ for start in range(1, TARGET_LENGTH - WINDOW_SIZE + 2, WINDOW_STEP):
 # ---------------------------------------------------------------------------
 # OBJECTIVE WEIGHTS
 # Order: Hemolysis Non-Fouling Half-Life Affinity Motif Specificity
-# The authors' default is "1 1 1 4 4 2" — Affinity and Motif are prioritized.
+# The authors' default is "1+1+1+4+4+2" — Affinity and Motif are prioritized.
 # We sweep four strategies:
 #   "balanced"        — default from manuscript
 #   "affinity"        — prioritize binding affinity
 #   "more-affinity"   — prioritize binding affinity more strongly
 #   "max-affinity"    — maximize binding affinity above all else
 #   "specificity"     — emphasize motif specificity for on-target selectivity
+# Weights are plus-delimited to make it easier to pass to HTCondor
 WEIGHT_SETS = {
-    "balanced":        "1 1 1 4 4 2",
-    "affinity":        "1 1 1 8 4 2",
-    "more-affinity":   "1 1 1 8 2 1",
-    "max-affinity":    "1 1 1 10 1 1",
-    "specificity":     "1 1 1 4 8 4",
+    "balanced":        "1+1+1+4+4+2",
+    "affinity":        "1+1+1+8+4+2",
+    "more-affinity":   "1+1+1+8+2+1",
+    "max-affinity":    "1+1+1+10+1+1",
+    "specificity":     "1+1+1+4+8+4",
 }
 
 # ---------------------------------------------------------------------------
