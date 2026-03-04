@@ -85,7 +85,7 @@ fieldnames = ["job_id", "length", "motifs", "weights", "weight_name", "n_batches
 
 with open(output_file, "w", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
-    writer.writeheader()
+    f.write("# " + ",".join(fieldnames) + "\n")
     writer.writerows(rows)
 
 print(f"Generated {len(rows)} jobs -> {output_file}")

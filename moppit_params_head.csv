@@ -1,4 +1,4 @@
-job_id,length,motifs,weights,weight_name,n_batches
+# job_id,length,motifs,weights,weight_name,n_batches
 0,10,1-20,1 1 1 4 4 2,balanced,600
 1,10,1-20,1 1 1 8 4 2,affinity,600
 2,10,1-20,1 1 1 8 2 1,more-affinity,600
