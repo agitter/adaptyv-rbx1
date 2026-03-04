@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# Prevent KeyError: 'getpwuid(): uid not found: 21155'
+export TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor
+
 echo "Working directory: $(pwd)"
 echo "GPU info:"
 grep -i "GPUs_" $_CONDOR_MACHINE_AD
