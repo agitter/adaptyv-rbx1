@@ -35,4 +35,4 @@ request_disk = 20GB
 # Columns: job_id,length,motifs,weights,weight_name,n_batches
 # Okay to ignore the warning from the unused column
 # WARNING: the Queue variable 'weight_name' was unused by condor_submit. Is it a typo?
-queue job_id,length,motifs,weights,weight_name,n_batches from moppit_params_head.csv
+queue job_id,length,motifs,weights,weight_name,n_batches from moppit_params.csv
