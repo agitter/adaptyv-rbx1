@@ -1,0 +1,46 @@
+000 (5738420.000.000) 2026-03-03 21:27:18 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+040 (5738420.000.000) 2026-03-03 21:29:45 Started transferring input files
+	Transferring to host: <128.105.68.119:9618?addrs=128.105.68.119-9618+[2607-f388-2200-100-7ec2-55ff-fe99-a294]-9618&alias=dsigpu4000.chtc.wisc.edu&noUDP&sock=slot1_3_2066066_26e9_78432>
+...
+040 (5738420.000.000) 2026-03-03 21:29:45 Finished transferring input files
+...
+001 (5738420.000.000) 2026-03-03 21:29:55 Job executing on host: <128.105.68.119:9618?addrs=128.105.68.119-9618+[2607-f388-2200-100-7ec2-55ff-fe99-a294]-9618&alias=dsigpu4000.chtc.wisc.edu&noUDP&sock=startd_3360685_f56c>
+	SlotName: slot1_3@dsigpu4000.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_2b6c08b6 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2938205/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_2b6c08b6 = [ Id = "GPU-2b6c08b6"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "2b6c08b6-c45f-87e4-1c4f-6e96be520665"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:53:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+006 (5738420.000.000) 2026-03-03 21:34:56 Image size of job updated: 3929
+	3929  -  MemoryUsage of job (MB)
+	4024116  -  ResidentSetSize of job (KB)
+...
+040 (5738420.000.000) 2026-03-03 21:40:06 Started transferring output files
+...
+040 (5738420.000.000) 2026-03-03 21:40:06 Finished transferring output files
+...
+005 (5738420.000.000) 2026-03-03 21:40:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:07:16, Sys 0 00:00:42  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:07:16, Sys 0 00:00:42  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	165282  -  Run Bytes Sent By Job
+	522  -  Run Bytes Received By Job
+	165282  -  Total Bytes Sent By Job
+	522  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0           4         4 
+	   Disk (KB)            : 2548760    41943040  41943040 
+	   GPUs                 :       0.32        1         1 "GPU-2b6c08b6"
+	   GpusMemory (MB)      :   17886                       
+	   IoHeavy              :                             0 
+	   Memory (MB)          :    3929       24576     24576 
+	   TimeExecute (s)      :     448                       
+	   TimeSlotBusy (s)     :     621                       
+...

@@ -1,0 +1,556 @@
+000 (5740834.000.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.001.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.002.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.003.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.004.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.005.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.006.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.007.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.008.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+000 (5740834.009.000) 2026-03-04 12:56:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+040 (5740834.000.000) 2026-03-04 13:02:04 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_2_900137_b255_306>
+...
+040 (5740834.000.000) 2026-03-04 13:02:04 Finished transferring input files
+...
+040 (5740834.001.000) 2026-03-04 13:02:11 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_3_900137_b255_307>
+...
+040 (5740834.001.000) 2026-03-04 13:02:11 Finished transferring input files
+...
+001 (5740834.000.000) 2026-03-04 13:02:12 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_2@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_d4c66366 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2008805/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_d4c66366 = [ Id = "GPU-d4c66366"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "d4c66366-0738-bd7c-ffa5-8964cc68801e"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:52:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+040 (5740834.002.000) 2026-03-04 13:02:18 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_4_900137_b255_308>
+...
+040 (5740834.002.000) 2026-03-04 13:02:18 Finished transferring input files
+...
+001 (5740834.001.000) 2026-03-04 13:02:20 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_3@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_2e13e217 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2010633/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_2e13e217 = [ Id = "GPU-2e13e217"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "2e13e217-6059-f8d1-c6e6-c4cc399ca285"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:53:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+040 (5740834.003.000) 2026-03-04 13:02:23 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_5_900137_b255_309>
+...
+040 (5740834.003.000) 2026-03-04 13:02:23 Finished transferring input files
+...
+001 (5740834.002.000) 2026-03-04 13:02:26 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_4@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_2b906524 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2011490/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_2b906524 = [ Id = "GPU-2b906524"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "2b906524-2c98-70d1-cc44-dc77fc325ade"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:56:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+040 (5740834.004.000) 2026-03-04 13:02:29 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_6_900137_b255_310>
+...
+040 (5740834.004.000) 2026-03-04 13:02:29 Finished transferring input files
+...
+001 (5740834.003.000) 2026-03-04 13:02:31 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_5@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_617fac56 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2013389/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_617fac56 = [ Id = "GPU-617fac56"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "617fac56-266a-f041-a6ff-1b77abf2220f"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:57:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+001 (5740834.004.000) 2026-03-04 13:02:38 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_6@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_24660f1c }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2015155/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_24660f1c = [ Id = "GPU-24660f1c"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "24660f1c-9665-dc92-a0c9-04252e1a8138"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:CE:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+006 (5740834.000.000) 2026-03-04 13:04:47 Image size of job updated: 376
+	376  -  MemoryUsage of job (MB)
+	385940  -  ResidentSetSize of job (KB)
+...
+040 (5740834.000.000) 2026-03-04 13:04:47 Started transferring output files
+...
+040 (5740834.000.000) 2026-03-04 13:04:47 Finished transferring output files
+...
+021 (5740834.000.000) 2026-03-04 13:04:47 Error from starter on slot1_2@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2008805/scratch/samples_#.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:36287>
+	Code 13 Subcode 2
+...
+004 (5740834.000.000) 2026-03-04 13:04:47 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_2@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2008805/scratch/samples_#.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :       36 41943040  41943040 
+	   GPUs                 :        0        1         1 "GPU-d4c66366"
+	   GpusMemory (MB)      :      604                    
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      376    24576     24576 
+	   TimeExecute (s)      :        7                    
+	   TimeSlotBusy (s)     :      163                    
+...
+012 (5740834.000.000) 2026-03-04 13:04:47 Job was held.
+	Transfer output files failure at execution point slot1_2@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2008805/scratch/samples_#.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+040 (5740834.005.000) 2026-03-04 13:04:47 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_2_900137_b255_314>
+...
+040 (5740834.005.000) 2026-03-04 13:04:47 Finished transferring input files
+...
+001 (5740834.005.000) 2026-03-04 13:04:47 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_2@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_d4c66366 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2023655/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_d4c66366 = [ Id = "GPU-d4c66366"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "d4c66366-0738-bd7c-ffa5-8964cc68801e"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:52:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+006 (5740834.005.000) 2026-03-04 13:04:56 Image size of job updated: 524
+	524  -  MemoryUsage of job (MB)
+	536708  -  ResidentSetSize of job (KB)
+...
+006 (5740834.004.000) 2026-03-04 13:05:03 Image size of job updated: 3762
+	3762  -  MemoryUsage of job (MB)
+	3852852  -  ResidentSetSize of job (KB)
+...
+040 (5740834.004.000) 2026-03-04 13:05:03 Started transferring output files
+...
+040 (5740834.004.000) 2026-03-04 13:05:03 Finished transferring output files
+...
+021 (5740834.004.000) 2026-03-04 13:05:03 Error from starter on slot1_6@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2015155/scratch/samples_3.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:35259>
+	Code 13 Subcode 2
+...
+006 (5740834.001.000) 2026-03-04 13:05:03 Image size of job updated: 3779
+	3779  -  MemoryUsage of job (MB)
+	3870620  -  ResidentSetSize of job (KB)
+...
+040 (5740834.001.000) 2026-03-04 13:05:03 Started transferring output files
+...
+040 (5740834.001.000) 2026-03-04 13:05:03 Finished transferring output files
+...
+021 (5740834.001.000) 2026-03-04 13:05:03 Error from starter on slot1_3@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2010633/scratch/samples_0.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:36701>
+	Code 13 Subcode 2
+...
+004 (5740834.004.000) 2026-03-04 13:05:03 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:18, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_6@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2015155/scratch/samples_3.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.00        4         4 
+	   Disk (KB)            : 2548604    41943040  41943040 
+	   GPUs                 :                   1         1 "GPU-24660f1c"
+	   GpusMemory (MB)      :     604                       
+	   IoHeavy              :                             0 
+	   Memory (MB)          :    3762       24576     24576 
+	   TimeExecute (s)      :      23                       
+	   TimeSlotBusy (s)     :     154                       
+...
+012 (5740834.004.000) 2026-03-04 13:05:03 Job was held.
+	Transfer output files failure at execution point slot1_6@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2015155/scratch/samples_3.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+004 (5740834.001.000) 2026-03-04 13:05:03 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:18, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_3@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2010633/scratch/samples_0.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :  2548604 41943040  41943040 
+	   GPUs                 :        0        1         1 "GPU-2e13e217"
+	   GpusMemory (MB)      :      604                    
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     3779    24576     24576 
+	   TimeExecute (s)      :       23                    
+	   TimeSlotBusy (s)     :      172                    
+...
+012 (5740834.001.000) 2026-03-04 13:05:03 Job was held.
+	Transfer output files failure at execution point slot1_3@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2010633/scratch/samples_0.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+040 (5740834.006.000) 2026-03-04 13:05:04 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_6_900137_b255_315>
+...
+040 (5740834.006.000) 2026-03-04 13:05:04 Finished transferring input files
+...
+040 (5740834.007.000) 2026-03-04 13:05:04 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_3_900137_b255_316>
+...
+040 (5740834.007.000) 2026-03-04 13:05:04 Finished transferring input files
+...
+001 (5740834.006.000) 2026-03-04 13:05:04 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_6@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_24660f1c }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2024625/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_24660f1c = [ Id = "GPU-24660f1c"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "24660f1c-9665-dc92-a0c9-04252e1a8138"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:CE:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+001 (5740834.007.000) 2026-03-04 13:05:04 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_3@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_2e13e217 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2024626/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_2e13e217 = [ Id = "GPU-2e13e217"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "2e13e217-6059-f8d1-c6e6-c4cc399ca285"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:53:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+006 (5740834.002.000) 2026-03-04 13:05:04 Image size of job updated: 3965
+	3965  -  MemoryUsage of job (MB)
+	4061080  -  ResidentSetSize of job (KB)
+...
+040 (5740834.002.000) 2026-03-04 13:05:04 Started transferring output files
+...
+040 (5740834.002.000) 2026-03-04 13:05:04 Finished transferring output files
+...
+021 (5740834.002.000) 2026-03-04 13:05:04 Error from starter on slot1_4@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2011490/scratch/samples_1.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:36213>
+	Code 13 Subcode 2
+...
+006 (5740834.003.000) 2026-03-04 13:05:04 Image size of job updated: 3888
+	3888  -  MemoryUsage of job (MB)
+	3982228  -  ResidentSetSize of job (KB)
+...
+040 (5740834.003.000) 2026-03-04 13:05:04 Started transferring output files
+...
+040 (5740834.003.000) 2026-03-04 13:05:04 Finished transferring output files
+...
+021 (5740834.003.000) 2026-03-04 13:05:04 Error from starter on slot1_5@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2013389/scratch/samples_2.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:45279>
+	Code 13 Subcode 2
+...
+004 (5740834.002.000) 2026-03-04 13:05:04 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_4@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2011490/scratch/samples_1.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :  2548604 41943040  41943040 
+	   GPUs                 :                 1         1 "GPU-2b906524"
+	   GpusMemory (MB)      :      604                    
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     3965    24576     24576 
+	   TimeExecute (s)      :       24                    
+	   TimeSlotBusy (s)     :      167                    
+...
+012 (5740834.002.000) 2026-03-04 13:05:04 Job was held.
+	Transfer output files failure at execution point slot1_4@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2011490/scratch/samples_1.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+004 (5740834.003.000) 2026-03-04 13:05:04 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:18, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_5@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2013389/scratch/samples_2.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :  2548604 41943040  41943040 
+	   GPUs                 :                 1         1 "GPU-617fac56"
+	   GpusMemory (MB)      :      604                    
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     3888    24576     24576 
+	   TimeExecute (s)      :       24                    
+	   TimeSlotBusy (s)     :      161                    
+...
+012 (5740834.003.000) 2026-03-04 13:05:04 Job was held.
+	Transfer output files failure at execution point slot1_5@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2013389/scratch/samples_2.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+040 (5740834.008.000) 2026-03-04 13:05:04 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_4_900137_b255_317>
+...
+040 (5740834.008.000) 2026-03-04 13:05:04 Finished transferring input files
+...
+040 (5740834.009.000) 2026-03-04 13:05:04 Started transferring input files
+	Transferring to host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=slot1_5_900137_b255_318>
+...
+040 (5740834.009.000) 2026-03-04 13:05:04 Finished transferring input files
+...
+001 (5740834.008.000) 2026-03-04 13:05:04 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_4@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_2b906524 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2025615/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_2b906524 = [ Id = "GPU-2b906524"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "2b906524-2c98-70d1-cc44-dc77fc325ade"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:56:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+001 (5740834.009.000) 2026-03-04 13:05:05 Job executing on host: <128.105.69.3:9618?addrs=128.105.69.3-9618+[2607-f388-2200-100-7ec2-55ff-fe46-28f2]-9618&alias=gpu4002.chtc.wisc.edu&noUDP&sock=startd_900081_4769>
+	SlotName: slot1_5@gpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_617fac56 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2025682/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_617fac56 = [ Id = "GPU-617fac56"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "617fac56-266a-f041-a6ff-1b77abf2220f"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:57:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+006 (5740834.005.000) 2026-03-04 13:05:09 Image size of job updated: 3773
+	3773  -  MemoryUsage of job (MB)
+	3863792  -  ResidentSetSize of job (KB)
+...
+040 (5740834.005.000) 2026-03-04 13:05:09 Started transferring output files
+...
+040 (5740834.005.000) 2026-03-04 13:05:09 Finished transferring output files
+...
+021 (5740834.005.000) 2026-03-04 13:05:09 Error from starter on slot1_2@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2023655/scratch/samples_4.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:44985>
+	Code 13 Subcode 2
+...
+004 (5740834.005.000) 2026-03-04 13:05:09 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_2@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2023655/scratch/samples_4.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0           4         4 
+	   Disk (KB)            : 2548604    41943040  41943040 
+	   GPUs                 :       0.00        1         1 "GPU-d4c66366"
+	   GpusMemory (MB)      :    1081                       
+	   IoHeavy              :                             0 
+	   Memory (MB)          :    3773       24576     24576 
+	   TimeExecute (s)      :      22                       
+	   TimeSlotBusy (s)     :      22                       
+...
+012 (5740834.005.000) 2026-03-04 13:05:09 Job was held.
+	Transfer output files failure at execution point slot1_2@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2023655/scratch/samples_4.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+006 (5740834.007.000) 2026-03-04 13:05:12 Image size of job updated: 503
+	503  -  MemoryUsage of job (MB)
+	515496  -  ResidentSetSize of job (KB)
+...
+006 (5740834.006.000) 2026-03-04 13:05:12 Image size of job updated: 508
+	508  -  MemoryUsage of job (MB)
+	521008  -  ResidentSetSize of job (KB)
+...
+006 (5740834.009.000) 2026-03-04 13:05:13 Image size of job updated: 593
+	593  -  MemoryUsage of job (MB)
+	608092  -  ResidentSetSize of job (KB)
+...
+006 (5740834.008.000) 2026-03-04 13:05:13 Image size of job updated: 618
+	618  -  MemoryUsage of job (MB)
+	633712  -  ResidentSetSize of job (KB)
+...
+006 (5740834.006.000) 2026-03-04 13:05:25 Image size of job updated: 4008
+	4008  -  MemoryUsage of job (MB)
+	4104688  -  ResidentSetSize of job (KB)
+...
+040 (5740834.006.000) 2026-03-04 13:05:25 Started transferring output files
+...
+040 (5740834.006.000) 2026-03-04 13:05:25 Finished transferring output files
+...
+021 (5740834.006.000) 2026-03-04 13:05:25 Error from starter on slot1_6@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2024625/scratch/samples_5.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:42185>
+	Code 13 Subcode 2
+...
+006 (5740834.007.000) 2026-03-04 13:05:25 Image size of job updated: 3641
+	3641  -  MemoryUsage of job (MB)
+	3728576  -  ResidentSetSize of job (KB)
+...
+040 (5740834.007.000) 2026-03-04 13:05:25 Started transferring output files
+...
+040 (5740834.007.000) 2026-03-04 13:05:25 Finished transferring output files
+...
+021 (5740834.007.000) 2026-03-04 13:05:25 Error from starter on slot1_3@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2024626/scratch/samples_6.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:35551>
+	Code 13 Subcode 2
+...
+006 (5740834.009.000) 2026-03-04 13:05:25 Image size of job updated: 3588
+	3588  -  MemoryUsage of job (MB)
+	3674704  -  ResidentSetSize of job (KB)
+...
+004 (5740834.006.000) 2026-03-04 13:05:25 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_6@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2024625/scratch/samples_5.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.03        4         4 
+	   Disk (KB)            : 2548604    41943040  41943040 
+	   GPUs                 :                   1         1 "GPU-24660f1c"
+	   IoHeavy              :                             0 
+	   Memory (MB)          :    4008       24576     24576 
+	   TimeExecute (s)      :      21                       
+	   TimeSlotBusy (s)     :      22                       
+...
+012 (5740834.006.000) 2026-03-04 13:05:25 Job was held.
+	Transfer output files failure at execution point slot1_6@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2024625/scratch/samples_5.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+040 (5740834.009.000) 2026-03-04 13:05:25 Started transferring output files
+...
+040 (5740834.009.000) 2026-03-04 13:05:25 Finished transferring output files
+...
+021 (5740834.009.000) 2026-03-04 13:05:25 Error from starter on slot1_5@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2025682/scratch/samples_8.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:34859>
+	Code 13 Subcode 2
+...
+006 (5740834.008.000) 2026-03-04 13:05:25 Image size of job updated: 3919
+	3919  -  MemoryUsage of job (MB)
+	4013300  -  ResidentSetSize of job (KB)
+...
+040 (5740834.008.000) 2026-03-04 13:05:25 Started transferring output files
+...
+040 (5740834.008.000) 2026-03-04 13:05:25 Finished transferring output files
+...
+021 (5740834.008.000) 2026-03-04 13:05:25 Error from starter on slot1_4@gpu4002.chtc.wisc.edu:
+	STARTER at 128.105.69.3 failed to send file(s) to <128.105.68.112:9618>: |Error: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2025615/scratch/samples_7.csv.gz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.3:44821>
+	Code 13 Subcode 2
+...
+004 (5740834.007.000) 2026-03-04 13:05:26 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_3@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2024626/scratch/samples_6.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :  2548604 41943040  41943040 
+	   GPUs                 :                 1         1 "GPU-2e13e217"
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     3641    24576     24576 
+	   TimeExecute (s)      :       21                    
+	   TimeSlotBusy (s)     :       21                    
+...
+012 (5740834.007.000) 2026-03-04 13:05:26 Job was held.
+	Transfer output files failure at execution point slot1_3@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2024626/scratch/samples_6.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+004 (5740834.009.000) 2026-03-04 13:05:26 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:17, Sys 0 00:00:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_5@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2025682/scratch/samples_8.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.02        4         4 
+	   Disk (KB)            : 2548604    41943040  41943040 
+	   GPUs                 :                   1         1 "GPU-617fac56"
+	   IoHeavy              :                             0 
+	   Memory (MB)          :    3588       24576     24576 
+	   TimeExecute (s)      :      20                       
+	   TimeSlotBusy (s)     :      21                       
+...
+012 (5740834.009.000) 2026-03-04 13:05:26 Job was held.
+	Transfer output files failure at execution point slot1_5@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2025682/scratch/samples_8.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+004 (5740834.008.000) 2026-03-04 13:05:26 Job was evicted. Code 12 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:17, Sys 0 00:00:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1100  -  Run Bytes Received By Job
+	Reason: Transfer output files failure at execution point slot1_4@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2025615/scratch/samples_7.csv.gz: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :  2548604 41943040  41943040 
+	   GPUs                 :                 1         1 "GPU-2b906524"
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     3919    24576     24576 
+	   TimeExecute (s)      :       21                    
+	   TimeSlotBusy (s)     :       21                    
+...
+012 (5740834.008.000) 2026-03-04 13:05:26 Job was held.
+	Transfer output files failure at execution point slot1_4@gpu4002.chtc.wisc.edu while sending files to access point ap2001. Details: 1 total failures: first failure: reading from file /var/lib/condor/execute/slot1/dir_2025615/scratch/samples_7.csv.gz: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (5740834.000.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.001.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.002.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.003.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.004.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.005.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.006.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.007.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.008.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...
+009 (5740834.009.000) 2026-03-04 16:54:55 Job was aborted.
+	via condor_rm (by user agitter)
+...

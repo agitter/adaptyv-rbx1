@@ -1,0 +1,42 @@
+000 (5725812.000.000) 2026-02-28 16:37:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_9001_840b>
+...
+040 (5725812.000.000) 2026-02-28 16:37:26 Started transferring input files
+	Transferring to host: <128.105.68.87:9618?addrs=128.105.68.87-9618+[2607-f388-2200-100-7ec2-55ff-fe9a-b48e]-9618&alias=dsigpu4002.chtc.wisc.edu&noUDP&sock=slot1_2_3906973_ab75_63289>
+...
+040 (5725812.000.000) 2026-02-28 16:37:26 Finished transferring input files
+...
+001 (5725812.000.000) 2026-02-28 16:37:35 Job executing on host: <128.105.68.87:9618?addrs=128.105.68.87-9618+[2607-f388-2200-100-7ec2-55ff-fe9a-b48e]-9618&alias=dsigpu4002.chtc.wisc.edu&noUDP&sock=startd_9971_dae9>
+	SlotName: slot1_2@dsigpu4002.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_00ce5156 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1485477/scratch"
+	Cpus = 4
+	Disk = 41943040
+	GPUs = 1
+	GPUs_GPU_00ce5156 = [ Id = "GPU-00ce5156"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "00ce5156-6c1c-d9e4-6d22-e1f02050971e"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:52:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+	IoHeavy = 0
+	Memory = 24576
+...
+040 (5725812.000.000) 2026-02-28 16:41:18 Started transferring output files
+...
+040 (5725812.000.000) 2026-02-28 16:41:18 Finished transferring output files
+...
+005 (5725812.000.000) 2026-02-28 16:41:19 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	88  -  Run Bytes Sent By Job
+	430  -  Run Bytes Received By Job
+	88  -  Total Bytes Sent By Job
+	430  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :       33 41943040  41943040 
+	   GPUs                 :                 1         1 "GPU-00ce5156"
+	   GpusMemory (MB)      :      604                    
+	   IoHeavy              :                           0 
+	   Memory (MB)          :             24576     24576 
+	   TimeExecute (s)      :        4                    
+	   TimeSlotBusy (s)     :      233                    
+...
