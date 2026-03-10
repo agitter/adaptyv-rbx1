@@ -27,4 +27,7 @@ Generated 180 jobs -> moppit_params.csv
 
 seq-alignments.txt compares different versions of the RBX-1 sequence.
 
+The `logs` directory contains HTCondor job log files.
+The `output` directory contains generated peptides.
+
 Claude Sonnet 4.6 was used to draft most files.
