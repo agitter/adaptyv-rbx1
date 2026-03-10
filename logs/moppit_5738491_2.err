@@ -1,0 +1,74 @@
+Traceback (most recent call last):
+  File "/workspace/moPPIt/moppit.py", line 6, in <module>
+    from models.peptide_classifiers import *
+  File "/workspace/moPPIt/models/peptide_classifiers.py", line 5, in <module>
+    import pytorch_lightning as pl
+  File "/usr/local/lib/python3.12/dist-packages/pytorch_lightning/__init__.py", line 25, in <module>
+    from lightning_fabric.utilities.seed import seed_everything  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/__init__.py", line 35, in <module>
+    from lightning_fabric.fabric import Fabric  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/fabric.py", line 39, in <module>
+    from lightning_fabric.accelerators.accelerator import Accelerator
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/accelerators/__init__.py", line 15, in <module>
+    from lightning_fabric.accelerators.accelerator import Accelerator
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/accelerators/accelerator.py", line 19, in <module>
+    from lightning_fabric.accelerators.registry import _AcceleratorRegistry
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/accelerators/registry.py", line 18, in <module>
+    from lightning_fabric.utilities.exceptions import MisconfigurationException
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/utilities/__init__.py", line 16, in <module>
+    from lightning_fabric.utilities.apply_func import move_data_to_device
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/utilities/apply_func.py", line 24, in <module>
+    from lightning_fabric.utilities.imports import _NUMPY_AVAILABLE
+  File "/usr/local/lib/python3.12/dist-packages/lightning_fabric/utilities/imports.py", line 41, in <module>
+    _TORCHMETRICS_GREATER_EQUAL_1_0_0 = compare_version("torchmetrics", operator.ge, "1.0.0")
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/lightning_utilities/core/imports.py", line 78, in compare_version
+    pkg = importlib.import_module(package)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torchmetrics/__init__.py", line 37, in <module>
+    from torchmetrics import functional  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torchmetrics/functional/__init__.py", line 56, in <module>
+    from torchmetrics.functional.image._deprecated import (
+  File "/usr/local/lib/python3.12/dist-packages/torchmetrics/functional/image/__init__.py", line 14, in <module>
+    from torchmetrics.functional.image.arniqa import arniqa
+  File "/usr/local/lib/python3.12/dist-packages/torchmetrics/functional/image/arniqa.py", line 31, in <module>
+    from torchvision import transforms
+  File "/usr/local/lib/python3.12/dist-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torchvision/models/__init__.py", line 2, in <module>
+    from .convnext import *
+  File "/usr/local/lib/python3.12/dist-packages/torchvision/models/convnext.py", line 9, in <module>
+    from ..ops.misc import Conv2dNormActivation, Permute
+  File "/usr/local/lib/python3.12/dist-packages/torchvision/ops/__init__.py", line 23, in <module>
+    from .poolers import MultiScaleRoIAlign
+  File "/usr/local/lib/python3.12/dist-packages/torchvision/ops/poolers.py", line 10, in <module>
+    from .roi_align import roi_align
+  File "/usr/local/lib/python3.12/dist-packages/torchvision/ops/roi_align.py", line 7, in <module>
+    from torch._dynamo.utils import is_compile_supported
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    from . import (
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/aot_compile.py", line 16, in <module>
+    from torch._dynamo.package import SystemInfo
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/package.py", line 1157, in <module>
+    DynamoCache = DiskDynamoCache(os.path.join(cache_dir(), "dynamo"))
+                                               ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/package.py", line 1154, in cache_dir
+    return cache_dir()
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/runtime/cache_dir_utils.py", line 17, in cache_dir
+    os.environ["TORCHINDUCTOR_CACHE_DIR"] = cache_dir = default_cache_dir()
+                                                        ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/runtime/cache_dir_utils.py", line 23, in default_cache_dir
+    sanitized_username = re.sub(r'[\\/:*?"<>|]', "_", getpass.getuser())
+                                                      ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/getpass.py", line 169, in getuser
+    return pwd.getpwuid(os.getuid())[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'getpwuid(): uid not found: 21155'

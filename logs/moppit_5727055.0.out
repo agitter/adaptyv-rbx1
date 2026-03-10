@@ -1,0 +1,22 @@
+Working directory: /var/lib/condor/execute/slot1/dir_1497235/scratch
+GPU info:
+AvailableGPUs = { GPUs_GPU_00ce5156 }
+CUDACapability = GPUs_Capability
+CUDADeviceName = GPUs_DeviceName
+CUDADriverVersion = GPUs_DriverVersion
+CUDAGlobalMemoryMb = GPUs_GlobalMemoryMb
+CUDAMaxSupportedVersion = GPUs_MaxSupportedVersion
+GPUs_Capability = 8.9
+GPUs_DeviceName = "NVIDIA L40"
+GPUs_DevicePciBusId = "0000:52:00.0"
+GPUs_DeviceUuid = "00ce5156-6c1c-d9e4-6d22-e1f02050971e"
+GPUs_DriverVersion = 12.8
+GPUs_ECCEnabled = true
+GPUs_GPU_00ce5156 = [ Id = "GPU-00ce5156"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "00ce5156-6c1c-d9e4-6d22-e1f02050971e"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:52:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+GPUs_GlobalMemoryMb = 45468
+GPUs_MaxSupportedVersion = 12080
+GPUs_NvidiaDriver = "570.195.03"
+Target Motifs: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+tensor([16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 62, 63,
+        64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79],
+       device='cuda:0')

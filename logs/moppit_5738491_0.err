@@ -1,0 +1,18 @@
+/workspace/moPPIt/flow_matching/path/path_sample.py:38: SyntaxWarning: invalid escape sequence '\s'
+  """
+/workspace/moPPIt/flow_matching/path/scheduler/scheduler.py:66: SyntaxWarning: invalid escape sequence '\s'
+  """Scheduler for convex paths.
+/workspace/moPPIt/flow_matching/path/scheduler/scheduler.py:78: SyntaxWarning: invalid escape sequence '\k'
+  """
+usage: moppit.py [-h] [--num_div NUM_DIV] [--lambda_ LAMBDA_] [--beta BETA]
+                 [--alpha_r ALPHA_R] [--eta ETA] [--Phi_init PHI_INIT]
+                 [--Phi_min PHI_MIN] [--Phi_max PHI_MAX] [--tau TAU] [--T T]
+                 [--length LENGTH] [--is_peptide IS_PEPTIDE]
+                 [--n_samples N_SAMPLES] [--n_batches N_BATCHES]
+                 [--target_protein TARGET_PROTEIN]
+                 [--target_enhancer_class TARGET_ENHANCER_CLASS]
+                 [--target_DNA_shape TARGET_DNA_SHAPE] [--motifs MOTIFS]
+                 [--weights WEIGHTS [WEIGHTS ...]] [--output_file OUTPUT_FILE]
+                 [--motif_penalty]
+                 [--objectives {Hemolysis,Non-Fouling,Solubility,Half-Life,Affinity,Motif,Specificity} [{Hemolysis,Non-Fouling,Solubility,Half-Life,Affinity,Motif,Specificity} ...]]
+moppit.py: error: argument --length: invalid int value: 'length'

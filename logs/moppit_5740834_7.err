@@ -1,0 +1,33 @@
+/workspace/moPPIt/flow_matching/path/path_sample.py:38: SyntaxWarning: invalid escape sequence '\s'
+  """
+/workspace/moPPIt/flow_matching/path/scheduler/scheduler.py:66: SyntaxWarning: invalid escape sequence '\s'
+  """Scheduler for convex paths.
+/workspace/moPPIt/flow_matching/path/scheduler/scheduler.py:78: SyntaxWarning: invalid escape sequence '\k'
+  """
+Some weights of EsmModel were not initialized from the model checkpoint at facebook/esm2_t33_650M_UR50D and are newly initialized: ['esm.pooler.dense.bias', 'esm.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of EsmModel were not initialized from the model checkpoint at facebook/esm2_t33_650M_UR50D and are newly initialized: ['esm.pooler.dense.bias', 'esm.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of EsmModel were not initialized from the model checkpoint at facebook/esm2_t33_650M_UR50D and are newly initialized: ['esm.pooler.dense.bias', 'esm.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of EsmModel were not initialized from the model checkpoint at facebook/esm2_t33_650M_UR50D and are newly initialized: ['esm.pooler.dense.bias', 'esm.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of EsmModel were not initialized from the model checkpoint at facebook/esm2_t33_650M_UR50D and are newly initialized: ['esm.pooler.dense.bias', 'esm.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+NFE: 0:   0%|          | 0/0.9990000128746033 [00:00<?, ?it/s]NFE: 0:   0%|          | 0/0.9990000128746033 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/workspace/moPPIt/moppit.py", line 81, in <module>
+    x_1 = solver.multi_guidance_sample(args=args, x_init=x_init, 
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/moPPIt/flow_matching/solver/discrete_solver.py", line 365, in multi_guidance_sample
+    guided_u_t, pos_indices, cand_tokens, improvement_values, delta_S = guided_transition_scoring(x_t, u_t, w, score_models, t, w, args)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/moPPIt/flow_matching/utils/multi_guidance.py", line 75, in guided_transition_scoring
+    improvement *= importance[count]
+                   ~~~~~~~~~~^^^^^^^
+IndexError: index 1 is out of bounds for dimension 0 with size 1

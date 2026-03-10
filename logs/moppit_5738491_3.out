@@ -1,0 +1,19 @@
+Working directory: /var/lib/condor/execute/slot1/dir_2977823/scratch
+GPU info:
+AvailableGPUs = { GPUs_GPU_ed5a0460 }
+CUDACapability = GPUs_Capability
+CUDADeviceName = GPUs_DeviceName
+CUDADriverVersion = GPUs_DriverVersion
+CUDAGlobalMemoryMb = GPUs_GlobalMemoryMb
+CUDAMaxSupportedVersion = GPUs_MaxSupportedVersion
+GPUs_Capability = 8.9
+GPUs_DeviceName = "NVIDIA L40"
+GPUs_DevicePciBusId = "0000:56:00.0"
+GPUs_DeviceUuid = "ed5a0460-a1cd-317f-bdd4-79b64ba26eae"
+GPUs_DriverVersion = 12.8
+GPUs_ECCEnabled = true
+GPUs_GPU_ed5a0460 = [ Id = "GPU-ed5a0460"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "ed5a0460-a1cd-317f-bdd4-79b64ba26eae"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:56:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+GPUs_GlobalMemoryMb = 45468
+GPUs_MaxSupportedVersion = 12080
+GPUs_NvidiaDriver = "570.195.03"
+job_id=2 length=10 motifs=1-20 weights=1 n_batches=1

@@ -1,0 +1,43 @@
+Working directory: /var/lib/condor/execute/slot1/dir_1496129/scratch
+GPU info:
+AddressV1 = "{[ p=\"primary\"; a=\"128.105.68.87\"; port=9618; n=\"Internet\"; alias=\"dsigpu4002.chtc.wisc.edu\"; spid=\"startd_9971_dae9\"; noUDP=true; ], [ p=\"IPv4\"; a=\"128.105.68.87\"; port=9618; n=\"Internet\"; alias=\"dsigpu4002.chtc.wisc.edu\"; spid=\"startd_9971_dae9\"; noUDP=true; ], [ p=\"IPv6\"; a=\"2607:f388:2200:100:7ec2:55ff:fe9a:b48e\"; port=9618; n=\"Internet\"; alias=\"dsigpu4002.chtc.wisc.edu\"; spid=\"startd_9971_dae9\"; noUDP=true; ]}"
+AssignedGPUs = "GPU-00ce5156"
+AvailableGPUs = { GPUs_GPU_00ce5156 }
+CUDACapability = GPUs_Capability
+CUDADeviceName = GPUs_DeviceName
+CUDADriverVersion = GPUs_DriverVersion
+CUDAGlobalMemoryMb = GPUs_GlobalMemoryMb
+CUDAMaxSupportedVersion = GPUs_MaxSupportedVersion
+ConcurrencyLimits = "GPULAB_MEDIUM.agitter:1,GPULAB_MEDIUMSHORT.agitter:1"
+DetectedGPUs = "GPU-cee5c56a, GPU-00ce5156, GPU-c089abcf, GPU-ed5a0460, GPU-f49fbfb5, GPU-0cf6385f, GPU-eeb05aef, GPU-6ca2c1c4, GPU-93ad32c0, GPU-1c27b612"
+DroppedOutGpus = ""
+FileSystemDomain = "dsigpu4002.chtc.wisc.edu"
+GPUs = 1
+GPUsMemoryUsage = 604.0
+GPUs_Capability = 8.9
+GPUs_DeviceName = "NVIDIA L40"
+GPUs_DevicePciBusId = "0000:52:00.0"
+GPUs_DeviceUuid = "00ce5156-6c1c-d9e4-6d22-e1f02050971e"
+GPUs_DriverVersion = 12.8
+GPUs_ECCEnabled = true
+GPUs_GPU_00ce5156 = [ Id = "GPU-00ce5156"; Capability = 8.9; DeviceName = "NVIDIA L40"; DeviceUuid = "00ce5156-6c1c-d9e4-6d22-e1f02050971e"; ECCEnabled = true; NvidiaDriver = "570.195.03"; DriverVersion = 12.8; DevicePciBusId = "0000:52:00.0"; GlobalMemoryMb = 45468; MaxSupportedVersion = 12080 ]
+GPUs_GlobalMemoryMb = 45468
+GPUs_MaxSupportedVersion = 12080
+GPUs_NvidiaDriver = "570.195.03"
+LastUpdateGPUsMemoryUsage = 1772320045
+LastUpdateUptimeGPUsMemoryPeakUsage = 1772320045
+LastUpdateUptimeGPUsSeconds = 1772320045
+Machine = "dsigpu4002.chtc.wisc.edu"
+MachineResources = "Cpus Memory Disk Swap GPUs IoHeavy"
+MyAddress = "<128.105.68.87:9618?addrs=128.105.68.87-9618+[2607-f388-2200-100-7ec2-55ff-fe9a-b48e]-9618&alias=dsigpu4002.chtc.wisc.edu&noUDP&sock=startd_9971_dae9>"
+Name = "slot1_2@dsigpu4002.chtc.wisc.edu"
+PublicClaimId = "<128.105.68.87:9618?addrs=128.105.68.87-9618+[2607-f388-2200-100-7ec2-55ff-fe9a-b48e]-9618&alias=dsigpu4002.chtc.wisc.edu&noUDP&sock=startd_9971_dae9>#1770554766#82281#..."
+START = ((((PreventJobsReason ?: "") == "" && (MY.ROOT_PART_GIB_FREE ?: 0) > 7 && (((TARGET.DockerImage ?: "") == "" && (TARGET.ContainerImageSource ?: "") != "docker") || (MY.DOCKER_PART_GIB_FREE ?: 0) >= 32) && EXECUTE_IS_READONLY =?= false && (TARGET.ProjectName ?: "") =!= "") && ((PartitionableSlot =!= true || State == "Matched" || (time() - EnteredCurrentState) > 0) || (false) || (false) || (false) || (false))) && (("UWMadison_DSI_Affiliates" == "" &&  !((TARGET.want_ospool ?: false) || (TARGET.want_campus_pools ?: false) || (TARGET.WantFlocking ?: false) || (TARGET.WantGlidein ?: false) || (TARGET.is_resumable ?: false) || (TARGET.GlideinFactory ?: "") != "" || (Target.ProjectName ?: "") == "IceCube")) || stringListsIntersect("UWMadison_DSI_Affiliates",(TARGET.ChtcProjects ?: "")))) && (TARGET.RequestGpus ?: 0) > 0
+StartdIpAddr = "<128.105.68.87:9618?addrs=128.105.68.87-9618+[2607-f388-2200-100-7ec2-55ff-fe9a-b48e]-9618&alias=dsigpu4002.chtc.wisc.edu&noUDP&sock=startd_9971_dae9>"
+TotalGPUs = 10
+TotalSlotGPUs = 1
+UptimeGPUsMemoryPeakUsage = 45315.0
+UptimeGPUsSeconds = 1246933.050325996
+UptimeGPUsSecondsAverageUsage = (UptimeGPUsSeconds - StartOfJobUptimeGPUsSeconds) / (LastUpdateUptimeGPUsSeconds - FirstUpdateUptimeGPUsSeconds)
+UtsnameNodename = "dsigpu4002"
+WithinResourceLimits = (MY.Cpus > 0 && TARGET.RequestCpus <= MY.Cpus && MY.Memory > 0 && TARGET.RequestMemory <= MY.Memory && MY.Disk > 0 && TARGET.RequestDisk <= MY.Disk && (TARGET.RequestGPUs =?= undefined || MY.GPUs >= TARGET.RequestGPUs) && (TARGET.RequestIoHeavy =?= undefined || MY.IoHeavy >= TARGET.RequestIoHeavy))
