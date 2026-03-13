@@ -30,4 +30,89 @@ seq-alignments.txt compares different versions of the RBX-1 sequence.
 The `logs` directory contains HTCondor job log files.
 The `output` directory contains generated peptides.
 
+`UniProt-aa-composition.txt` is from https://www.uniprot.org/uniprotkb/statistics#amino-acid-composition.
+
+`analyze_results.py` processes the 180 output files to merge them, visualize them, filter the peptides, and rank the peptides by three different scores:
+```
+$ python analyze_results.py
+Loaded UniProt AA frequencies:
+  L: 0.0976
+  A: 0.0869
+  S: 0.0720
+  G: 0.0707
+  V: 0.0675
+  E: 0.0628
+  R: 0.0581
+  T: 0.0560
+  D: 0.0544
+  I: 0.0533
+  P: 0.0515
+  K: 0.0505
+  Q: 0.0393
+  N: 0.0387
+  F: 0.0384
+  Y: 0.0285
+  M: 0.0232
+  H: 0.0230
+  C: 0.0142
+  W: 0.0130
+
+Merged 108000 peptides from 180 jobs
+
+Generating pairplot...
+Pairplot saved -> pairplot.png
+
+After deduplication: 107996 unique sequences (4 duplicates removed)
+
+Priority 1 (Affinity only) -> results_priority_affinity.csv (107996 rows)
+  Applying filters...
+  Score filters: 856 remain (107140 removed)
+    Affinity < 8.0:         79436
+    Motif < 0.5:             63059
+    Specificity < 0.8:    4625
+    Half-Life <= 25.0:       100098
+  Sequence filters: 150 remain (706 removed)
+    Non-standard AA:     0
+    AA freq > 4.0x UniProt: 705
+    Consecutive repeats: 16
+  Filtered -> results_priority_affinity_filtered.csv (150 rows)
+
+Priority 2 (Affinity + Motif) -> results_priority_motif.csv (107996 rows)
+  Applying filters...
+  Score filters: 856 remain (107140 removed)
+    Affinity < 8.0:         79436
+    Motif < 0.5:             63059
+    Specificity < 0.8:    4625
+    Half-Life <= 25.0:       100098
+  Sequence filters: 150 remain (706 removed)
+    Non-standard AA:     0
+    AA freq > 4.0x UniProt: 705
+    Consecutive repeats: 16
+  Filtered -> results_priority_motif_filtered.csv (150 rows)
+
+Priority 3 (Affinity + Motif + Specificity) -> results_priority_balanced.csv (107996 rows)
+  Applying filters...
+  Score filters: 856 remain (107140 removed)
+    Affinity < 8.0:         79436
+    Motif < 0.5:             63059
+    Specificity < 0.8:    4625
+    Half-Life <= 25.0:       100098
+  Sequence filters: 150 remain (706 removed)
+    Non-standard AA:     0
+    AA freq > 4.0x UniProt: 705
+    Consecutive repeats: 16
+  Filtered -> results_priority_balanced_filtered.csv (150 rows)
+
+Score summary (deduplicated peptides, before filtering):
+         Affinity       Motif  Specificity   Half-Life  score_affinity_motif  score_balanced
+count  107996.000  107996.000   107996.000  107996.000            107996.000      107996.000
+mean        7.574       0.400        0.916       8.108                 0.543           0.618
+std         0.571       0.274        0.063      17.104                 0.133           0.108
+min         4.684       0.000        0.536       1.000                 0.068           0.238
+25%         7.117       0.123        0.882       1.210                 0.429           0.525
+50%         7.724       0.437        0.918       2.417                 0.551           0.623
+75%         8.016       0.632        0.973       5.943                 0.647           0.703
+max         8.891       0.941        1.000     100.000                 0.906           0.914
+```
+
 Claude Sonnet 4.6 was used to draft most files.
