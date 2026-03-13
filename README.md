@@ -115,4 +115,10 @@ min         4.684       0.000        0.536       1.000                 0.068    
 max         8.891       0.941        1.000     100.000                 0.906           0.914
 ```
 
+`csv_to_fasta.py` converts from the csv file format to fasta for submission to https://proteinbase.com/competitions/gem-adaptyv-rbx1.
+```
+$ python csv_to_fasta.py results_priority_affinity_filtered.csv results_priority_affinity_filtered.fa --top 100
+Wrote 100 sequences to results_priority_affinity_filtered.fa
+```
+
 Claude Sonnet 4.6 was used to draft most files.
