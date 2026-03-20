@@ -120,5 +120,17 @@ max         8.891       0.941        1.000     100.000                 0.906    
 $ python csv_to_fasta.py results_priority_affinity_filtered.csv results_priority_affinity_filtered.fa --top 100
 Wrote 100 sequences to results_priority_affinity_filtered.fa
 ```
+100 of 100 sequences in `results_priority_affinity_filtered.fa` were valid in the ProteinBase submission system, so these sequences were submitted to the competition.
+
+`runtimes.txt` reports the Run Remote Usage Usr time from the HTCondor log.
+They were analyzed with
+```commandline
+$ python -c "
+import sys
+total = sum(int(h)*3600 + int(m)*60 + int(s) for t in sys.stdin for h,m,s in [t.strip().split(':')])
+print(f'{total/3600:.2f} hours')
+" < runtimes.txt
+2485.60 hours
+```
 
 Claude Sonnet 4.6 was used to draft most files.
