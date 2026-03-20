@@ -4,6 +4,21 @@
 This readme contains rough notes about the files and analysis.
 The [report](gitter-moppit-rbx1.pdf) gives a complete overview of the methods and results.
 
+## Citation
+```
+@article{gitter_openadmet_2026,
+	title = {moPPIt for RBX1 binder design},
+	url = {https://github.com/agitter/adaptyv-rbx1},
+	doi = {10.5281/zenodo.19137197},
+	journal = {Zenodo},
+	author = {Gitter, Anthony},
+	month = mar,
+	year = {2026},
+}
+```
+
+## Notes
+
 Dockerfile based on the moPPIt [Colab notebook](https://colab.research.google.com/drive/16n8PIwKwAiG-oDLm171BWvv-lQH0dHMg?usp=sharing).
 Pushed the image to [DockerHub](https://hub.docker.com/repository/docker/agitter/moppit).
 
