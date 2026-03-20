@@ -1,4 +1,6 @@
 # GEM x Adaptyv: RBX1 Binder Design Competition
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19137197.svg)](https://doi.org/10.5281/zenodo.19137197)
+
 This readme contains rough notes about the files and analysis.
 The [report](gitter-moppit-rbx1.pdf) gives a complete overview of the methods and results.
 
