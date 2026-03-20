@@ -6,7 +6,7 @@ The [report](gitter-moppit-rbx1.pdf) gives a complete overview of the methods an
 
 ## Citation
 ```
-@article{gitter_openadmet_2026,
+@article{gitter_rbx1_2026,
 	title = {moPPIt for RBX1 binder design},
 	url = {https://github.com/agitter/adaptyv-rbx1},
 	doi = {10.5281/zenodo.19137197},
