@@ -1,4 +1,7 @@
 # GEM x Adaptyv: RBX1 Binder Design Competition
+This readme contains rough notes about the files and analysis.
+The [report](gitter-moppit-rbx1.pdf) gives a complete overview of the methods and results.
+
 Dockerfile based on the moPPIt [Colab notebook](https://colab.research.google.com/drive/16n8PIwKwAiG-oDLm171BWvv-lQH0dHMg?usp=sharing).
 Pushed the image to [DockerHub](https://hub.docker.com/repository/docker/agitter/moppit).
 
@@ -25,12 +28,12 @@ Generated 180 jobs -> moppit_params.csv
   n_batches:    600
 ```
 
-seq-alignments.txt compares different versions of the RBX-1 sequence.
+`seq-alignments.txt` compares different versions of the RBX-1 sequence.
 
 The `logs` directory contains HTCondor job log files.
 The `output` directory contains generated peptides.
 
-`UniProt-aa-composition.txt` is from https://www.uniprot.org/uniprotkb/statistics#amino-acid-composition.
+`UniProt-aa-composition.txt` is from https://www.uniprot.org/uniprotkb/statistics#amino-acid-composition as of March 12, 2026.
 
 `analyze_results.py` processes the 180 output files to merge them, visualize them, filter the peptides, and rank the peptides by three different scores:
 ```
