@@ -3,7 +3,7 @@
 
 This readme contains rough notes about the files and analysis.
 The [report](gitter-moppit-rbx1.pdf) gives a complete overview of the methods and results.
-See the submission in [Proteinbase](https://proteinbase.com/collections/gem-x-adaptyv-rbx1-binder-design-competition-submission-1-AtKTMDkA04).
+See the submission in [Proteinbase](https://proteinbase.com/collections/gem-x-adaptyv-rbx1-binder-design-competition-submission-1-AtKTMDkA04) and the [7 designed selected](https://proteinbase.com/collections/gem-x-adaptyv-rbx1-binder-design-competition-selected-submissions?search=agitter) for experimental testing.
 
 ## Citation
 ```
